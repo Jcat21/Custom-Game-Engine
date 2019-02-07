@@ -1,0 +1,5 @@
+name:, avg (ms), max (ms)
+GameUpdate:, 0.395032, 11.710420
+Frame:, 16.624529, 31.879507
+FrameLimit:, 0.166036, 13.673087
+GameRender:, 15.979677, 31.725826

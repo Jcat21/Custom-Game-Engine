@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "type": "itplevel",
+    "version": 2
+  },
+
+  "camera": {
+    "position": [ -300.0, 0.0, 100.0 ],
+    "rotation": [ 0.0, 0.0, 0.0, 1.0 ]
+  },
+
+  "lightingData": {
+    "ambient": [ 0.1, 0.1, 0.1 ]
+  },
+
+  "renderObjects": [
+    {
+      "position": [ 50.0, 0.0, 50.0 ],
+      "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "scale": 0.5,
+      "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+      "components": [
+        {
+          "type": "PointLight",
+          "diffuseColor": [ 0.0, 1.0, 0.0 ],
+          "specularColor": [ 0.5, 1.0, 0.5 ],
+          "specularPower": 10.0,
+          "innerRadius": 125.0,
+          "outerRadius": 250.0
+        }
+      ]
+    },
+    {
+      "position": [ 0.0, 50.0, 50.0 ],
+      "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "scale": 0.5,
+      "mesh": "Assets/Meshes/LightSphere.itpmesh2",
+      "components": [
+        {
+          "type": "PointLight",
+          "diffuseColor": [ 0.0, 0.0, 1.0 ],
+          "specularColor": [ 0.5, 0.5, 1.0 ],
+          "specularPower": 10.0,
+          "innerRadius": 125.0,
+          "outerRadius": 250.0
+        }
+      ]
+    },
+    {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "scale": 5.0,
+      "mesh": "Assets/Meshes/Platform.itpmesh2",
+      "components": [ ]
+    },
+    {
+      "position": [ 650.0, -50.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "scale": 5.0,
+      "mesh": "Assets/Meshes/Platform.itpmesh2",
+      "components": [ ]
+    },
+    {
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+      "scale": 1.0,
+      "mesh": "Assets/Meshes/PlayerShip.itpmesh2",
+      "components": [ ]
+    }
+  ]
+}
